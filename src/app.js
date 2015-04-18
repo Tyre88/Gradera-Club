@@ -16,7 +16,7 @@ define(
 		catch(err)
 		{
 			return angular.module('gradera-klubb', ['ng', 'ui.router', 'ui.bootstrap', 'ngMaterial'])
-				.controller('index', ["$scope", "$state", "user-service", function($scope, $state, userService)
+				.controller('index', ["$scope", "$state", "user-service", "$mdSidenav", function($scope, $state, userService, $mdSidenav)
 				{
 					$scope.UserService = userService;
 					$scope.AdminLinks = [];
@@ -29,6 +29,8 @@ define(
 						});
 
 						$(element.target.parentElement).addClass("active");
+
+						$mdSidenav('leftNav').toggle();
 					};
 
 					if(userService.User.IsLoggedIn)

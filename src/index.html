@@ -8,7 +8,7 @@
         <gk-login ng-if="!UserService.User.IsLoggedIn"></gk-login>
         <div ng-if="UserService.User.IsLoggedIn">
             <gk-logged-in></gk-logged-in>
-            <div layout="column">
+            <div layout="row" wrap>
                 <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-component-id="leftNav" md-is-locked-open="$mdMedia('gt-md')">
                     <ul>
                         <li class="nav-header">{{UserService.User.Compound.Name}}</li>
