@@ -1,0 +1,125 @@
+[{
+  "Name": "5 Kyu",
+  "PartBelt":
+  {
+    "Name": "Vitt bälte med gul markering",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+  },
+  "WholeBelt":
+  {
+    "Name": "Gult bälte",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+  }
+},
+{
+    "Name": "4 Kyu",
+    "PartBelt":
+    {
+    "Name": "Gult bälte med orange markering",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    },
+    "WholeBelt":
+    {
+    "Name": "Orange bälte",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    }
+},
+{
+    "Name": "3 Kyu",
+    "PartBelt":
+    {
+    "Name": "Orange bälte med grön markering",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    },
+    "WholeBelt":
+    {
+    "Name": "Grönt bälte",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    }
+},
+{
+    "Name": "2 Kyu",
+    "PartBelt":
+    {
+    "Name": "Grönt bälte med blå markering",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    },
+    "WholeBelt":
+    {
+    "Name": "Blått bälte",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    }
+},
+{
+    "Name": "1 Kyu",
+    "PartBelt":
+    {
+    "Name": "Blått bälte med brun markering",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    },
+    "WholeBelt":
+    {
+    "Name": "Brunt bälte",
+    "Rei": [],
+    "Ukemi": [],
+    "KumiKata": [],
+    "NageWaza": [],
+    "OsaeKomiWaza": [],
+    "RandoriWaza": [],
+    "Other": []
+    }
+}]

@@ -1,0 +1,9 @@
+<div ng-show="::ngModel.length">
+    <ng-transclude></ng-transclude>
+    <ul>
+        <li ng-repeat="item in ngModel">
+            <a class="icon-trash" ng-click="DeleteItem(item)" ng-if="adminMode"></a>
+            <a class="icon-right-dir brand-second-color-before" href="{{::item.URL}}">{{::item.Name}}</a>
+        </li>
+    </ul>
+</div>

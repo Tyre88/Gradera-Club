@@ -1,0 +1,41 @@
+<md-tabs md-selected="tabIndex" class="md-primary">
+    <md-tab ng-repeat="tab in Tabs"
+            ng-disabled="tab.Disabled"
+            label="{{tab.Name}}">
+        <div class="grading-tab-content tab{{$index%4}}">
+            <h2 ng-bind="::tab.PartBelt.Name"></h2>
+
+            <gk-grading-category ng-model="::tab.PartBelt.Rei" admin-mode="true">
+                <p><b>Rei</b> (hälsning)</p>
+            </gk-grading-category>
+
+            <gk-grading-category ng-model="::tab.PartBelt.Ukemi" admin-mode="true">
+                <p><b>Ukemi</b> (fallteknik)</p>
+            </gk-grading-category>
+
+            <gk-grading-category ng-model="::tab.PartBelt.KumiKata" admin-mode="true">
+                <p><b>Kumi kata</b> (greppteknik)</p>
+            </gk-grading-category>
+
+            <gk-grading-category ng-model="::tab.PartBelt.NageWaza" admin-mode="true">
+                <p><b>Nage waza</b> (kastteknik)</p>
+            </gk-grading-category>
+
+            <gk-grading-category ng-model="::tab.PartBelt.OsaeKomiWaza" admin-mode="true">
+                <p><b>Osae komi waza</b> (fasthållningsteknik)</p>
+            </gk-grading-category>
+
+            <gk-grading-category ng-model="tab.PartBelt.RandoriWaza" admin-mode="true">
+                <p><b>Randori waza</b></p>
+            </gk-grading-category>
+
+            <gk-grading-category ng-model="tab.PartBelt.Other" admin-mode="true">
+                <p><b>Du bör även kunna..</b></p>
+            </gk-grading-category>
+
+
+            <h2 ng-bind="::tab.WholeBelt.Name"></h2>
+        </div>
+    </md-tab>
+</md-tabs>
+
