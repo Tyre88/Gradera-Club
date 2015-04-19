@@ -1,4 +1,4 @@
-LoadCss(["content/css/stylesheet.css", "content/css/fontello.css"]);
+LoadCss(["content/css/stylesheet.css", "content/css/fontello.css", "content/css/jquery-ui.css"]);
 
 define(
     [
@@ -15,7 +15,7 @@ define(
 		}
 		catch(err)
 		{
-			return angular.module('gradera-klubb', ['ng', 'ui.router', 'ui.bootstrap', 'ngMaterial'])
+			return angular.module('gradera-klubb', ['ng', 'ui.router', 'ui.bootstrap', 'ngMaterial', 'ngDragDrop'])
 				.controller('index', ["$scope", "$state", "user-service", "$mdSidenav", function($scope, $state, userService, $mdSidenav)
 				{
 					$scope.UserService = userService;

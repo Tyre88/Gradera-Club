@@ -14,6 +14,10 @@ require(
 			{
 				$scope.Tabs = JSON.parse(data);
 			});
+
+			$scope.TestDrag = {
+				Name: "TEST"
+			};
 		}]);
 	}
 );
