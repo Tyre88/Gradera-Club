@@ -5,7 +5,7 @@ var require =
             "angular": "dependencies/angular/angularjs.min",
             "angular-animate":"dependencies/angular-animate/angular-animate.min",
             "angular-aria":"dependencies/angular-aria/angular-aria.min",
-            "angular-material":"dependencies/angular-material/angular-material.min",
+            "angular-material":"dependencies/angular-material/angular-material",
             "angular-dragdrop": "dependencies/angular-plugins/angular-dragdrop",
             "ui-router": "dependencies/angular/ui-router.min",
             "app": "app",
