@@ -9,6 +9,7 @@ require(
 		app.controller('gradingadmin', ["$scope", "grading-service", function($scope, gradingService)
 		{
 			$scope.Tabs = [];
+			$scope.TabIndex = 1;
 
 			gradingService.GetTabData(1).success(function(data)
 			{

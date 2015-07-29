@@ -11,11 +11,11 @@ define(
     {
 		try
 		{
-			return angular.module("gradera-klubb");
+			return angular.module("graderaklubb");
 		}
 		catch(err)
 		{
-			return angular.module('gradera-klubb', ['ng', 'ui.router', 'ui.bootstrap', 'ngMaterial', 'ngDragDrop'])
+			return angular.module('graderaklubb', ['ng', 'ngRoute', 'ui.router', 'ui.bootstrap', 'ngMaterial'])
 				.controller('index', ["$scope", "$state", "user-service", "$mdSidenav", function($scope, $state, userService, $mdSidenav)
 				{
 					$scope.UserService = userService;

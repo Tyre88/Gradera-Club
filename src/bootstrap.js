@@ -13,6 +13,6 @@ require(
     {
         require(["domready!"], function(document)
                 {
-                    return angular.bootstrap(document, ["gradera-klubb"]);
+                    return angular.bootstrap(document, ["graderaklubb"]);
                 });
     });

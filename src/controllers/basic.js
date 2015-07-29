@@ -14,6 +14,7 @@ require(
 		app.controller('gradingbasic', ["$scope", "grading-service", function($scope, gradingService)
 		{
 			$scope.Tabs = [];
+			$scope.TabIndex = 1;
 
 			gradingService.GetTabData(1).success(function(data)
 			{
